@@ -1,3 +1,7 @@
 @import 'normalize.css';  /* reset css */
+@import 'base/_variables.css';
 @import 'base/_global.css';
 @import 'modules/_site-header.css';
+@import 'modules/_about.css';
+@import 'modules/_portfolio.css';
+@import 'modules/_contact.css';
