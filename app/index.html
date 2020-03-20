@@ -1,74 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>The Dudek | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+
 </head>
+
 <body>
 
   <!--Header-->
   <header class="site-header">
     <a href="#" class="site-header__logo">The Dudek</a>
     <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#home" class="dark-when-scroll">Home</a></li>
+      <li><a href="#about" class="dark-when-scroll">About</a></li>
+      <li><a href="#portfolio" class="dark-when-scroll">Portfolio</a></li>
+      <li><a href="#contact" class="dark-when-scroll">Contact</a></li>
     </ul>
   </header>
 
   <!--Landing Page-->
   <section class="site-header__landing-page" id="home">
-    <h2>Welcome to The Dudek Website</h2>
+    <h2 class='site-header__title'>Welcome to The Dudek Website</h2>
   </section>
   <!--End Landing Page-->
 
   <!--End Header-->
 
   <!--About-->
-  <section class="about" id="about">
+  <section class="about mainLayout mainLayout--light" id="about">
     <div class="about__content">
       <div class="about__text">
         <h3>About me</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus minus consequuntur aut vero impedit soluta in libero, totam incidunt dicta pariatur, veritatis nulla debitis atque iste est officia repellendus!</p>
+        <p class="mainText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus minus
+          consequuntur aut vero impedit soluta in libero, totam incidunt dicta pariatur, veritatis nulla debitis atque
+          iste est officia repellendus!</p>
       </div>
     </div>
   </section>
   <!--End About-->
 
   <!--Porftolio-->
-  <section class="portfolio" id="portfolio">
+  <section class="portfolio mainLayout mainLayout--light" id="portfolio">
     <div class="portfolio__content">
       <div class="portfolio__text">
         <h3>Portfolio</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus minus consequuntur aut vero impedit soluta in libero, totam incidunt dicta pariatur, veritatis nulla debitis atque iste est officia repellendus!</p>
+        <p class="mainText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus minus
+          consequuntur aut vero impedit soluta in libero, totam incidunt dicta pariatur, veritatis nulla debitis atque
+          iste est officia repellendus!</p>
       </div>
       <div class="portfolio__projects-box">
         <div class="portfolio__project">
-          <a href="#"><h2>Project</h2></a>
+          <a href="#">
+            <h2>Project</h2>
+          </a>
         </div>
         <div class="portfolio__project">
-          <a href="#"><h2>Project</h2></a>
+          <a href="#">
+            <h2>Project</h2>
+          </a>
         </div>
         <div class="portfolio__project">
-          <a href="#"><h2>Project</h2></a>
+          <a href="#">
+            <h2>Project</h2>
+          </a>
         </div>
         <div class="portfolio__project">
-          <a href="#"><h2>Project</h2></a>
+          <a href="#">
+            <h2>Project</h2>
+          </a>
         </div>
         <div class="portfolio__project">
-          <a href="#"><h2>Project</h2></a>
+          <a href="#">
+            <h2>Project</h2>
+          </a>
         </div>
         <div class="portfolio__project">
-          <a href="#"><h2>Project</h2></a>
+          <a href="#">
+            <h2>Project</h2>
+          </a>
         </div>
         <div class="portfolio__project">
-          <a href="#"><h2>Project</h2></a>
+          <a href="#">
+            <h2>Project</h2>
+          </a>
         </div>
         <div class="portfolio__project">
-          <a href="#"><h2>Project</h2></a>
+          <a href="#">
+            <h2>Project</h2>
+          </a>
         </div>
       </div>
     </div>
@@ -76,37 +100,47 @@
   <!--End Portfolio-->
 
   <!--Contact-->
-  <section class="contact" id="contact">
+  <section class="contact mainLayout--last" id="contact">
     <div class="contact__content">
       <div class="contact__text">
-        <h3>Send Me A Message</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate </p>
+        <h3 class="contact__title">Send Me A Message</h3>
+        <p class="mainText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate </p>
       </div>
-      <div class="contactForm">
-        <div class="contactForm__row">
-          <div class="input">
-            <input type="text" placeholder="Full Name">
+      <div class="contact__contactForm">
+        <form>
+          <div class="contact__contactForm-row">
+            <div class="contact__input-half">
+              <input type="text" placeholder="Full Name">
             </div>
-          <div class="input">
-            <input type="text" placeholder="Email Address">
+            <div class="contact__input-half">
+              <input type="text" placeholder="Email Address">
             </div>
-        </div>
-        <div class="contactForm__row">
-          <div class="input">
-            <textarea placeholder="Message"></textarea>
+          </div>
+          <div class="contact__contactForm-row">
+            <div class="contact__input-full">
+              <textarea placeholder="Message"></textarea>
             </div>
-        </div>
-        <div class="contactForm__row">
-          <div class="input">
-            <input type="submit" value="Send">
+          </div>
+          <div class="contact__contactForm-row">
+            <div class="contact__input-full">
+              <input type="submit" value="Send">
             </div>
-        </div>
+          </div>
+        </form>
       </div>
-
+      <h2 class="contact__follow-title">Follow Me</h2>
+      <div class="contact__follow-icons">
+        <ul>
+          <li><a href="#"></a><i class="fab fa-linkedin-in fa-2x"></i></li>
+          <li><a href="#"></a><i class="fab fa-github fa-2x"></i></li>
+        </ul>
+      </div>
+      <p class="contact__copyright">Design & Developed By<a href="#"> The Dudek</a></p>
     </div>
   </section>
+
   <!--End Contact-->
-  
+
 </body>
 <script src='bundled.js'></script>
 </html>

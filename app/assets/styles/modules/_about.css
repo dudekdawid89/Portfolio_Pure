@@ -1,11 +1,4 @@
 .about{
-    background: $mainLight;
-    padding: 100px;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     &__content{
         position: relative;
         text-align: center;
@@ -15,6 +8,8 @@
     &__text{
         max-width: 800px;
         margin: 0 auto;
+        color: $mainDark;
+        
     }
 
 
