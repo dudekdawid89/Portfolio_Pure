@@ -9,8 +9,7 @@ class Scroll {
     }
 
     runOnScroll(){
-        this.header.classList.toggle('site-header__sticky', window.scrollY > 750)
-        console.log(window.scrollY);
+        this.header.classList.toggle('site-header__sticky', window.scrollY > 710)
     }
  }
 
