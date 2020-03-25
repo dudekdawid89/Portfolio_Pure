@@ -5,7 +5,7 @@ class Welcome {
             }
 
             events(){
-                if(document.readyState == 'loading'){
+                if(document.readyState === 'loading'){
                 document.addEventListener('DOMContentLoaded', e =>{
                     setTimeout(()=>{
                         this.newWelcome.classList.add('hidden')
