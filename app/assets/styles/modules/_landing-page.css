@@ -10,9 +10,6 @@
         background-position: center;
         background-size: cover;
 
-        @mixin atSmall {
-            
-        }
     }
     
     &__text-content{
@@ -29,9 +26,9 @@
 
     &__title{
         font-weight: 300;
-        font-size: 1.3rem;
+        font-size: 1.9rem;
         margin-bottom: 1rem;
-        font-style: italic; 
+        font-family: 'Nothing You Could Do', cursive;
 
         @mixin atSmall{
             font-size: 1.5rem;
