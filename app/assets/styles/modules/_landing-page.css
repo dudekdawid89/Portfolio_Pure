@@ -1,0 +1,84 @@
+.landing-page{
+    position: relative;
+
+    &__background{
+        position: relative;
+        min-width: 100%;
+        min-height: 100vh;
+
+        background: url(assets/images/bg1.jpg);
+        background-position: center;
+        background-size: cover;
+
+        @mixin atSmall {
+            
+        }
+    }
+    
+    &__text-content{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left:0;
+        color: white;
+        width: 100%;
+        text-align: center;
+        z-index:2;
+
+    }
+
+    &__title{
+        font-weight: 300;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        font-style: italic; 
+
+        @mixin atSmall{
+            font-size: 1.5rem;
+        }
+
+        @mixin atMedium {
+            font-size: 1.9rem;
+        }
+
+        @mixin atLarge {
+            font-size: 2.2rem;
+        }
+    }
+
+    &__title-2{
+        font-weight: 400;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+        font-weight: 100;
+        max-width: 43.75rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        
+        @mixin atSmall {
+            font-size: 1.8rem;
+        }
+
+        @mixin atMedium {
+            font-size: 2.8rem;
+        }
+
+        @mixin atLarge {
+            font-size: 3rem;
+        }
+    }
+}
+
+.landing-page:after {
+    content: " ";
+    z-index: 1;
+    display: block;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+  }

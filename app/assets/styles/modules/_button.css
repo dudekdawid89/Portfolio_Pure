@@ -1,0 +1,23 @@
+.button:hover{
+    color: black;
+    background-color: white;
+}
+
+.button{
+    border: 1.5px solid white;
+    border-radius: 0.3rem;
+    padding: 0.5rem .7rem;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: .75rem;
+
+    @mixin atSmall {
+        font-size: 1rem;
+        padding: 0.7rem 1rem;
+    }
+}
+
+
+
+

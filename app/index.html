@@ -12,7 +12,63 @@
 
 <body>
 
-  <!--Header-->
+<!--
+   <div id="welcome" class="welcome hidden">
+    <div class="welcome__wrapper">
+        <ul class="welcome__incoming-element">
+          <li>The dudek</li>
+        </ul>
+        <a href="#" class="welcome__button">Get Started</a>
+    </div>
+  </div>  -->
+
+  <div class="newWelcome">
+    <h1 class="fadeIn" >The Dudek</h1>
+    <h1 class="fadeIn" >welcome</h1>
+  </div>
+
+
+  <header class="site-header">
+    <div class='wrapper'>
+      <div class="site-header__logo">
+        <div class='site-header__logo-text'>Td</div>
+      </div>
+      <div class="site-header__menu-icon">
+        <div class="site-header__menu-icon__middle"></div>
+      </div>
+      <div class="site-header__menu-content">
+        <nav class="navigation navigation--pull-right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header> 
+
+  <div class="landing-page " >
+    <div class="landing-page__background"></div>
+    <!--<picture>
+      <source srcset="assets/images/bg1.jpg" media="(min-width: 1380px)">
+      <source srcset="assets/images/bg4.jpg" media="(min-width: 340px)">
+      <img src="assets/images/bg1.jpg">
+    </picture> -->
+    <div class="landing-page__text-content mainLayout">
+      <div class="wrapper">
+        <h1 class="landing-page__title">I'm Dawid Dudek</h1>
+        <h2 class="landing-page__title-2">Welcome to my portfolio website</h2>
+        <p><a href="#" class="button">Get Started</a></p>
+      </div>
+    </div>
+  </div> 
+
+
+
+  <!-- 
+
   <header class="site-header">
     <a href="#" class="site-header__logo">
       <div class='site-header__logo-text'>The Dudek</div>
@@ -25,13 +81,13 @@
     </ul>
   </header>
 
-  <!--Landing Page-->
+
   <section class="site-header__landing-page" id="home">
     <h2 class='site-header__title' id="demo"></h2>
   </section>
-  <!--End Landing Page-->
 
-  <!--End Header-->
+
+  End Header -->
 
   <!--About-->
   <section class="about mainLayout mainLayout--light" id="about">
@@ -47,7 +103,7 @@
   <!--End About-->
 
   <!--Porftolio-->
-  <section class="portfolio mainLayout mainLayout--light" id="portfolio">
+  <section class="portfolio mainLayout mainLayout--dark" id="portfolio">
     <div class="portfolio__content">
       <div class="portfolio__text">
         <h3>Portfolio</h3>
@@ -56,16 +112,6 @@
           iste est officia repellendus!</p>
       </div>
       <div class="portfolio__projects-box">
-        <div class="portfolio__project">
-          <a href="#">
-            <h2>Project</h2>
-          </a>
-        </div>
-        <div class="portfolio__project">
-          <a href="#">
-            <h2>Project</h2>
-          </a>
-        </div>
         <div class="portfolio__project">
           <a href="#">
             <h2>Project</h2>
@@ -144,5 +190,12 @@
   <!--End Contact-->
 
 </body>
-<script src='bundled.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src='bundled.js'>
+
+
+
+
+</script>
+
 </html>
