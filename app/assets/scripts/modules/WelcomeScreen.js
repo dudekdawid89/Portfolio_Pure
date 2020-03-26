@@ -1,4 +1,4 @@
-class Welcome {
+class WelcomeScreen {
     constructor(){
         this.newWelcome = document.querySelector('.newWelcome');
         this.events()
@@ -15,4 +15,4 @@ class Welcome {
         }
         }
 
-export default Welcome
+export default WelcomeScreen

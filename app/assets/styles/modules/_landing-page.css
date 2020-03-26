@@ -1,11 +1,11 @@
 .landing-page{
     position: relative;
+    background: black;
 
     &__background{
         position: relative;
         min-width: 100%;
         min-height: 100vh;
-
         background: url(assets/images/bg1.jpg);
         background-position: center;
         background-size: cover;
@@ -49,13 +49,15 @@
         text-transform: uppercase;
         letter-spacing: 0.5rem;
         font-weight: 100;
-        max-width: 43.75rem;
+        max-width: 49.75rem;
         margin-left: auto;
         margin-right: auto;
+        font-family: 'Gotu', sans-serif;
 
         
         @mixin atSmall {
             font-size: 1.8rem;
+            letter-spacing: 0.9rem;
         }
 
         @mixin atMedium {
@@ -65,6 +67,10 @@
         @mixin atLarge {
             font-size: 3rem;
         }
+    }
+
+    &__button-container{
+        margin-top: 50px;
     }
 }
 

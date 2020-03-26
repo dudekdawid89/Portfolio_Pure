@@ -32,7 +32,7 @@
         text-align: center;
         overflow: auto;
         transition: 0.5s;
-        background: black;
+        background: rgba(0, 0, 0, 0.95);
         display: flex;
         flex-direction: column;
         opacity: 0;
@@ -52,6 +52,10 @@
             margin: 5px 0;
             font-size: 2rem;
 
+            a:hover{
+                background: rgba(153, 47, 56, 0.3);
+                border-radius: 8px;    
+            }
             a{
                 position: relative;
                 padding: 5px 10px;
@@ -60,7 +64,7 @@
                 cursor: pointer;
                 color: white;
                 font-weight: 100;
-                font-style: italic;
+                font-family: 'Gotu', sans-serif;
             }
         }
     }
@@ -83,6 +87,7 @@
         z-index: 12;
         box-shadow: 0 10px 0 white;
         transition: 0.5s;
+        border-radius: 100%;
 
     }
 
@@ -95,6 +100,7 @@
         background: white;
         z-index: 12;
         transition: 0.5s;
+        border-radius: 100%;
     }
 }
 
