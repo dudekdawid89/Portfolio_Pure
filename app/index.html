@@ -9,105 +9,82 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
   <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Welcome Screen --> 
   <div class="newWelcome">
-    <h1 class="fadeIn" >The Dudek</h1>
-    <h1 class="fadeIn" >welcome</h1>
+    <h1 class="fadeIn font__logo">The Dudek</h1>
   </div>
+  <!-- End Welcome Screen-->
 
-
+  <!-- Navigation Bar-->
   <header class="site-header">
-      <a href="#" class='site-header__logo'>The Dudek</a>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <div class="site-header__toggle"></div>
-  </header> 
+    <a href="#" class='site-header__logo font__logo'>The Dudek</a>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="site-header__toggle"></div>
+  </header>
+  <!--End Navigation Bar-->
 
+  <!-- Landing Page-->
   <div class="landing-page">
     <div class="landing-page__background"></div>
-    <div class="landing-page__text-content mainLayout">
-      <div class="wrapper">
-        <h1 class="landing-page__title">I'm Dawid Dudek</h1>
-        <h2 class="landing-page__title-2">Welcome to my portfolio website</h2>
+    <div class="landing-page__text-content">
+      <div class="landing-page__wrapper">
+        <h1 class="landing-page__title font__logo">I'm Dawid Dudek</h1>
+        <h2 class="landing-page__title-2 font__title">Welcome to my portfolio website</h2>
       </div>
       <p class="landing-page__button-container"><a href="#about" class="button">Get Started</a></p>
     </div>
-  </div> 
-
-
-  <!-- <header class="site-header">
-    <a href="#" class="site-header__logo">
-      <div class='site-header__logo-text'>The Dudek</div>
-    </a>
-    <ul>
-      <li><a href="#home" class="dark-when-scroll">Home</a></li>
-      <li><a href="#about" class="dark-when-scroll">About</a></li>
-      <li><a href="#portfolio" class="dark-when-scroll">Portfolio</a></li>
-      <li><a href="#contact" class="dark-when-scroll">Contact</a></li>
-    </ul>
-  </header>
-
-
-  End Header -->
+  </div>
+  <!-- End Landing Page-->
 
   <!--About-->
-  <section class="about mainLayout mainLayout--light" id="about">
+  <section class="about template-style template-style--about" id="about">
     <div class="about__content">
       <div class="about__text">
         <h3>About me</h3>
-        <p class="mainText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus minus
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.    Cupiditate temporibus minus
           consequuntur aut vero impedit soluta in libero, totam incidunt dicta pariatur, veritatis nulla debitis atque
-          iste est officia repellendus!</p>
+          iste est officia repellendus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia deleniti repellat at praesentium necessitatibus veritatis voluptas architecto soluta quisquam, in vitae tenetur officia magnam fugit commodi quia neque. Dolorem, quibusdam.</p>
       </div>
     </div>
   </section>
   <!--End About-->
 
   <!--Porftolio-->
-  <section class="portfolio mainLayout mainLayout--dark" id="portfolio">
+  <section class="portfolio template-style template-style--portfolio" id="portfolio">
     <div class="portfolio__content">
       <div class="portfolio__text">
         <h3>Portfolio</h3>
-        <p class="mainText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus minus
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate temporibus minus
           consequuntur aut vero impedit soluta in libero, totam incidunt dicta pariatur, veritatis nulla debitis atque
           iste est officia repellendus!</p>
       </div>
       <div class="portfolio__projects-box">
         <div class="portfolio__project">
-          <a href="#">
-            <h2>Project</h2>
-          </a>
+          <a href="#"><h2>Project</h2></a>
         </div>
         <div class="portfolio__project">
-          <a href="#">
-            <h2>Project</h2>
-          </a>
+          <a href="#"><h2>Project</h2></a>
         </div>
         <div class="portfolio__project">
-          <a href="#">
-            <h2>Project</h2>
-          </a>
+          <a href="#"><h2>Project</h2></a>
         </div>
         <div class="portfolio__project">
-          <a href="#">
-            <h2>Project</h2>
-          </a>
+          <a href="#"><h2>Project</h2></a>
         </div>
         <div class="portfolio__project">
-          <a href="#">
-            <h2>Project</h2>
-          </a>
+          <a href="#"><h2>Project</h2></a>
         </div>
         <div class="portfolio__project">
-          <a href="#">
-            <h2>Project</h2>
-          </a>
+          <a href="#"><h2>Project</h2></a>
         </div>
       </div>
     </div>
@@ -115,48 +92,46 @@
   <!--End Portfolio-->
 
   <!--Contact-->
-  <section class="contact mainLayout--last" id="contact">
+  <section class="contact template-style template-style--last" id="contact">
     <div class="contact__content">
       <div class="contact__text">
         <h3 class="contact__title">Send Me A Message</h3>
-        <p class="mainText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate </p>
+        <p class="contact__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate </p>
       </div>
       <div class="contact__contactForm">
         <form>
           <div class="contact__contactForm-row">
             <div class="contact__input-half">
-              <input type="text" placeholder="Full Name">
+              <input class="contact__input" type="text" placeholder="Full Name">
             </div>
             <div class="contact__input-half">
-              <input type="text" placeholder="Email Address">
+              <input class="contact__input" type="text" placeholder="Email Address">
             </div>
           </div>
           <div class="contact__contactForm-row">
             <div class="contact__input-full">
-              <textarea placeholder="Message"></textarea>
+              <textarea class="contact__textarea" placeholder="Message"></textarea>
             </div>
           </div>
           <div class="contact__contactForm-row">
             <div class="contact__input-full">
-              <input type="submit" value="Send">
+              <input class="button button--black" type="submit" value="Send">
             </div>
           </div>
         </form>
       </div>
-      <h2 class="contact__follow-title">Follow Me</h2>
       <div class="contact__follow-icons">
         <ul>
-          <li><a href="#"></a><i class="fab fa-linkedin-in fa-2x"></i></li>
-          <li><a href="#"></a><i class="fab fa-github fa-2x"></i></li>
+          <li><a href="http://linkedin.com/in/dawiddudek" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+          </li>
+          <li><a href="https://github.com/dudekdawid89" target="_blank"><i class="fab fa-github fa-2x"></i></a></li>
         </ul>
       </div>
-      <p class="contact__copyright">Design & Developed By<a href="#"> The Dudek</a></p>
+      <p class="contact__copyright">Design & Developed By<a class="link link--copyright font__logo" href="#"> The Dudek</a></p>
     </div>
   </section>
-
-
+  <!--End Contact-->
 
 </body>
 <script src='bundled.js'></script>
-
 </html>

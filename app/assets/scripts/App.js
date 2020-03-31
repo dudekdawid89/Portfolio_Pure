@@ -1,20 +1,32 @@
 
 import '../styles/styles.css'
-import Scroll from "./modules/Scroll"
 import TypeWriter from "./modules/TypeWriter"
 import WelcomeScreen from "./modules/WelcomeScreen"
 import NavigationToggle from "./modules/NavigationToggle"
 
-let siteHeader = document.querySelector('.landing-page')
-window.addEventListener('scroll', function(){
-    let value = 1 + window.scrollY/-600
 
-})
+// let navigation 
+
+// let hamburger = document.querySelector('.site-header__toggle')
+// hamburger.addEventListener('click', () =>{
+//     if(typeof navigation == "undefined"){
+//         import(/* webpackChunkName: "navigation"*/'./modules/NavigationToggle').then( x => {
+//             navigation = new x.default()
+//             navigation.toggle()
+//         }).catch(() =>{
+//             console.log("There was a problem");
+//         })
+//     }else{
+//         navigation.toggle()
+//     }
+// })
 
 new NavigationToggle()
 new WelcomeScreen()
 new TypeWriter()
-new Scroll()
+
+alert('wow')
+
 
 
 if(module.hot){

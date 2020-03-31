@@ -2,6 +2,14 @@
     position: relative;
     background: black;
 
+    &__wrapper{
+        padding-left: 18px;
+        padding-right: 18px;
+        max-width: 1236px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     &__background{
         position: relative;
         min-width: 100%;
@@ -28,7 +36,6 @@
         font-weight: 300;
         font-size: 1.9rem;
         margin-bottom: 1rem;
-        font-family: 'Nothing You Could Do', cursive;
 
         @mixin atSmall{
             font-size: 1.5rem;
@@ -52,7 +59,7 @@
         max-width: 49.75rem;
         margin-left: auto;
         margin-right: auto;
-        font-family: 'Gotu', sans-serif;
+
 
         
         @mixin atSmall {

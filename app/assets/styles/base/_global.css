@@ -1,6 +1,27 @@
 *{
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    font-family: 'Slabo 27px', serif;
+}
+
+.font{
+    &__logo{
+        font-family: 'Nothing You Could Do', cursive;
+    }
+
+    &__title{
+        font-family: 'Gotu', sans-serif;
+    }
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.link{
+    &--copyright{
+        color: white
+    }
 }

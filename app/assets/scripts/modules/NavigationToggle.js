@@ -9,10 +9,18 @@ class NavigationToggle{
     events(){
         this.click.addEventListener('click', () => this.toggle())
         this.ul.addEventListener('click', () => this.toggle())
+        window.addEventListener('scroll', () => {
+            this.toggleBackround()
+        })
     }
 
     toggle(){
         this.header.classList.toggle('active')
+    }
+
+    toggleBackround(){
+        this.header.classList.toggle('site-header__dark-background', window.scrollY > 10)
+
     }
 }
 

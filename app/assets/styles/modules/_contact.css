@@ -5,10 +5,23 @@
         width:100%;
     }
 
+    &__copyright{
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+    }
+
     &__title{
         font-size: 2.2rem;
         font-weight: 100;
-        letter-spacing: 0.7rem
+        letter-spacing: 0.2rem;
+
+
+        @mixin atSmall {
+            font-size: 2.2rem;
+            letter-spacing: 0.7rem;
+
+        }
     }
 
     &__contactForm{
@@ -24,48 +37,59 @@
     &__contactForm-row{
         display: flex;
         width: 100%;
+        flex-direction: column;
+        align-items: center;
 
-        input, textarea{
-            position: relative;
-            border:none;
-            border-bottom: 1px solid black;
-            color: black;
-            background: transparent;
-            width: 100%;
-            padding: 10px 0;
-            outline: none;
-            margin: 20px 0;
-            resize: none;
-            font-weight: 300;
-            font-size: 1.1rem;
+        @mixin atSmall {
+            flex-direction: row;            
         }
 
         input::placeholder,
         textarea::placeholder{
-            color: rgba(0,0,0, 0.5)
+            color: rgba(255,255,255, 0.5)
         }
 
         textarea{
             height: 100px;
         }
 
-        input[type='submit']{
-            background: black;
-            color: $mainLight;
-            max-width: 100px;
-            margin: none;
-            cursor: pointer;
-        }
+
+    }
+
+    &__input, &__textarea{
+        position: relative;
+        border:none;
+        border-bottom: 1px solid white;
+        color: white;
+        background: transparent;
+        width: 100%;
+        padding: 10px 0;
+        outline: none;
+        margin: 20px 0;
+        resize: none;
+        font-weight: 300;
+        font-size: 1.1rem;
+
     }
 
     &__input-half{
+        width: 90%;
+        margin: 0 ;
+
+        @mixin atSmall {
         width: 50%;
         margin: 0 20px;
+        }
     }
 
     &__input-full {
-        width: 100%;
-        margin: 0 20px;
+        width: 90%;
+        margin: 0 ;
+
+        @mixin atSmall {
+            width: 100%;
+            margin: 0 20px;
+            }
     }
 
     &__follow-title{
@@ -73,7 +97,7 @@
     }
 
     &__follow-icons{
-        padding-bottom: 50px;
+        padding: 50px;
         
         ul{    
             list-style: none;
@@ -88,6 +112,9 @@
                 display: inline-block;
                 margin: 0 8px;
                 
+                i{
+                    color: white;
+                }
             }
         }
     }

@@ -1,15 +1,17 @@
 class Scroll {
     constructor(){
-        this.header = document.querySelector('header');
+        this.navigationBar = document.querySelector('.site-header');
         this.events()
+        alert('wow')
     }
-
+    
     events(){
         window.addEventListener('scroll', () => this.runOnScroll())
+        alert('wow')
     }
 
     runOnScroll(){
-        this.header.classList.toggle('site-header__sticky', window.scrollY > 710)
+        this.navigationBar.classList.toggle('site-header__dark-background', window.scrollY > 10)
     }
  }
 

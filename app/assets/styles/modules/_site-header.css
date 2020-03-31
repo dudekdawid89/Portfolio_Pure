@@ -12,12 +12,15 @@
         padding: 0 100px
     }
 
+    &__dark-background{
+        background-color: black;
+    }
+
     &__logo{
         color: white;
         font-size: 30px;
         text-decoration: none;
         z-index: 15;
-        font-family: 'Nothing You Could Do', cursive;
     }
 
     ul{
@@ -38,8 +41,6 @@
         opacity: 0;
         transform: translateY(-150%);
         
-
-
         @mixin atSmall{
             padding-top: 0;
             justify-content: center;

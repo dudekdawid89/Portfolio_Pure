@@ -39,7 +39,6 @@
 
 .fadeIn{
     opacity: 0;
-    font-family: 'Nothing You Could Do', cursive;
     animation: fadeIn 2s ease-out backwards;
 
 }
