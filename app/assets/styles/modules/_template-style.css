@@ -22,8 +22,8 @@
         padding: 0 10px;
         
         @mixin atSmall{
-            min-height: 100vh;
-            padding: 100px
+            min-height: 500px;
+            padding: 10px 40px
         }
     }
 }

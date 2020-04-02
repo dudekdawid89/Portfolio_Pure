@@ -4,7 +4,6 @@ import TypeWriter from "./modules/TypeWriter"
 import WelcomeScreen from "./modules/WelcomeScreen"
 import NavigationToggle from "./modules/NavigationToggle"
 
-
 // let navigation 
 
 // let hamburger = document.querySelector('.site-header__toggle')
@@ -24,10 +23,6 @@ import NavigationToggle from "./modules/NavigationToggle"
 new NavigationToggle()
 new WelcomeScreen()
 new TypeWriter()
-
-alert('wow')
-
-
 
 if(module.hot){
     module.hot.accept()
