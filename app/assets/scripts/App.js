@@ -3,6 +3,9 @@ import '../styles/styles.css'
 import TypeWriter from "./modules/TypeWriter"
 import WelcomeScreen from "./modules/WelcomeScreen"
 import NavigationToggle from "./modules/NavigationToggle"
+import RevealOnScroll from "./modules/RevealOnScroll"
+import ButtonAnimation from "./modules/ButtonAnimation"
+
 
 // let navigation 
 
@@ -19,7 +22,8 @@ import NavigationToggle from "./modules/NavigationToggle"
 //         navigation.toggle()
 //     }
 // })
-
+new ButtonAnimation()
+new RevealOnScroll()
 new NavigationToggle()
 new WelcomeScreen()
 new TypeWriter()

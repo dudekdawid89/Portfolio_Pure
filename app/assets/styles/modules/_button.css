@@ -26,11 +26,26 @@
     }
     &--black{
         background: black;
-        margin-top: 20px;
+        margin-top: 1.25rem;
 
     }
+
     
 }
+
+
+
+.button-animation{
+    opacity: 0;
+    transform: translateY(300px);
+    transition: all 1s ease;
+
+    &--is-visible{
+    transform: translateY(0px);
+     opacity: 1;
+    }
+}
+
 
 
 

@@ -14,10 +14,10 @@
         position: relative;
         min-width: 100%;
         min-height: 100vh;
-        background: url(assets/images/bg1.jpg);
+        background: url(assets/images/b11.jpg);
+        background-attachment: fixed;;
         background-position: center;
         background-size: cover;
-
     }
     
     &__text-content{
@@ -81,6 +81,7 @@
     }
 }
 
+/*
 .landing-page:after {
     content: " ";
     z-index: 1;
@@ -90,6 +91,6 @@
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.5);
   }
-
+*/
