@@ -98,11 +98,3 @@ a{
               flex-direction: row;
               flex-wrap: wrap;
           }
-
-.images{
-  img{
-    height: auto;
-    width: 17rem;
-    margin: 2rem;
-  }
-}

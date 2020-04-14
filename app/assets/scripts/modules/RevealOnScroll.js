@@ -6,6 +6,7 @@ class RevealOnScroll {
     }
 
     events(){
+        console.log('this.itemsToReveal :', this.itemsToReveal);
         window.addEventListener('scroll', () => {
             this.itemsToReveal.forEach(el => {
                 this.calculateIfScrolledTo(el)

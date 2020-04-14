@@ -1,0 +1,53 @@
+.resume {
+
+    &__text{
+        font-size: 2.1rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.875rem;
+        position: absolute;
+    }
+    
+    &__content{
+        text-align: center;
+        width: 100%;
+        position: absolute;
+    }
+ 
+
+
+    &__background{
+        height: 30rem;
+        width: 100%;
+        background-image: url(assets/images/182.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: center;
+        border-radius: 3rem;
+        box-shadow: 0 3px 5px black;
+        
+
+        @mixin atSmall{
+            height: 25rem;
+            margin: 5rem;
+            background-position: center;
+        }
+    }
+
+    &__title{
+        width: 3rem;
+    }
+
+    &__button{
+        position: absolute;
+        top: 80%;
+        left: 5%;
+
+        @mixin atSmall{
+            letter-spacing: 3px;
+        }
+
+    }
+}

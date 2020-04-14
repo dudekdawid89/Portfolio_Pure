@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     color:white;
-    background-color: black;
+
    
     
     &--last{
@@ -19,6 +19,16 @@
         }
     }
 
+    &--favorite-technology{
+        padding: 80px 10px;
+        
+
+        @mixin atSmall{
+            padding: 80px 40px;
+        }
+
+    }
+
     &--about{
         padding: 0 10px;
         
@@ -29,3 +39,21 @@
 }
 
 
+
+.images{
+    img{
+  
+      height: 5.5rem;
+      width: auto;
+      margin: 1rem;
+      filter: drop-shadow(0 6px 4px black);
+  
+      @mixin atSmall{
+        height: 9rem;
+      }
+  
+    }
+  }
+
+  body{    background-color: #0f0000;
+    background-image: linear-gradient(#210202,black, #210202);}

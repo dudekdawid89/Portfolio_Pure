@@ -13,20 +13,22 @@
     font-weight: 300;
     font-family: 'Gotu', sans-serif;
 
+    &__black{
+        border: 1.5px solid white;
+        border-radius: 0.3rem;
+        padding: 0.5rem .7rem;
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        font-family: 'Gotu', sans-serif;
+
+    }
     
     @mixin atSmall {
         font-size: 1.2rem;
         padding: 0.2rem .7rem;
         padding-top: 0.3rem;
-
-    }
-    &--black:hover{
-        background-color: white;
-        color: black;
-    }
-    &--black{
-        background: black;
-        margin-top: 1.25rem;
 
     }
 

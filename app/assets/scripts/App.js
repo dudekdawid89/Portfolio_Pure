@@ -7,6 +7,19 @@ import RevealOnScroll from "./modules/RevealOnScroll"
 import ButtonAnimation from "./modules/ButtonAnimation"
 
 
+document.querySelector('.ulliabout').addEventListener('click', ()=>{
+
+    document.querySelector('.about__content').scrollIntoView({
+        block: "center"
+    });
+})
+// window.addEventListener('click', ()=>{
+
+//     document.querySelector('#portfolio').scrollIntoView({
+//         block: "start"
+//     });
+// })
+
 // let navigation 
 
 // let hamburger = document.querySelector('.site-header__toggle')
