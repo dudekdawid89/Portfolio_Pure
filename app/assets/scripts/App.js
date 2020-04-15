@@ -5,9 +5,10 @@ import WelcomeScreen from "./modules/WelcomeScreen"
 import NavigationToggle from "./modules/NavigationToggle"
 import RevealOnScroll from "./modules/RevealOnScroll"
 import ButtonAnimation from "./modules/ButtonAnimation"
+import SectionNavigate from "./modules/SectionNavigate"
 
 
-document.querySelector('.ulliabout').addEventListener('click', ()=>{
+document.querySelector('.about-call').addEventListener('click', ()=>{
 
     document.querySelector('.about__content').scrollIntoView({
         block: "center"
@@ -35,7 +36,12 @@ document.querySelector('.ulliabout').addEventListener('click', ()=>{
 //         navigation.toggle()
 //     }
 // })
+new RevealOnScroll()
+new SectionNavigate()
 new ButtonAnimation()
+
+// new RevealOnScroll(document.querySelectorAll('.resume_content'))
+// new RevealOnScroll(document.querySelectorAll('img'))
 new RevealOnScroll()
 new NavigationToggle()
 new WelcomeScreen()

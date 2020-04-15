@@ -15,10 +15,11 @@
            margin-bottom: 1.875rem;
        }
        p {
-           font-size: 1.1rem;
+           font-size: 1.7rem;
            font-weight: 100;
            letter-spacing: 1px;
            line-height: 1.875rem;
+           font-style: italic ;
        }
    }
 }

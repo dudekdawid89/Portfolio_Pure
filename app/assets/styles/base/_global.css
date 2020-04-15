@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Slabo 27px', serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .font{
@@ -48,7 +48,7 @@ a{
   
   }
   .flip-card-container:hover .flip-card {
-    transform: rotateX(180deg); /* <=>  rotateY(.5turn) */
+    transform: rotateY(180deg); /* <=>  rotateY(.5turn) */
   }
   /* Position the front and back side */
   .flip-card-front, .flip-card-back {
@@ -59,9 +59,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    /* border-radius: 0.5rem; */
-  }
+    border-radius: 0.2rem;
+    }
   .flip-card-front {
     background-color: #333;
     color: #fff;
@@ -69,7 +68,7 @@ a{
   .flip-card-back {
     background-color: #517fa4;
     color: #fff;
-    transform: rotateX(180deg);
+    transform: rotateY(180deg);
 
   }
   
@@ -77,6 +76,7 @@ a{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    filter: sepia(80%)
   }
   .flip-card-back p {
     text-align: center;
@@ -98,3 +98,4 @@ a{
               flex-direction: row;
               flex-wrap: wrap;
           }
+

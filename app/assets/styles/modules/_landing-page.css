@@ -15,7 +15,8 @@
         min-width: 100%;
         min-height: 100vh;
         background: url(assets/images/b11.jpg);
-        background-attachment: fixed;;
+        background-attachment: fixed;
+
         background-position: center;
         background-size: cover;
     }

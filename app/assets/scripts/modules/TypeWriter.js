@@ -1,9 +1,9 @@
 class TypeWriter {
     constructor(){
         this.i = 0;
-        this.txt = 'WELCOME TO MY PORTFOLIO WEBSITE.';
-        this.speed = 50;
-        this.demo = document.getElementById("demo") 
+        this.txt = 'js'
+        this.speed = 100;
+        this.demo = document.querySelector('.demo')
         this.typeWriter()
     }
     
