@@ -1,8 +1,9 @@
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .font{
     &__logo{
@@ -17,7 +18,8 @@
 .section-title-style{
     font-size: 4rem;
     color: red;
-    padding-bottom: 2rem 
+    padding-bottom: 2rem;
+    filter: drop-shadow(0 6px 4px black)
 }
 
 a{
