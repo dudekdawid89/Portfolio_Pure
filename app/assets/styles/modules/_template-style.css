@@ -1,13 +1,14 @@
 .template-style{
     min-height: 100vh;
+    width: 100%;
     padding: 80px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     color:white;
+    text-align: center;
 
-   
-    
+
     &--last{
         min-height: 80vh;
         padding-bottom: 0;    
@@ -54,5 +55,7 @@
     }
   }
 
-  body{    background-color: #0f0000;
-    background-image: linear-gradient(black, #210202);}
+  body{
+
+        background-image: linear-gradient(black, #210202);
+    }

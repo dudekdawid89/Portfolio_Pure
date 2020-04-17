@@ -1,0 +1,92 @@
+.flip-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform .8s;
+    transform-style: preserve-3d;
+
+        a{
+          margin: .7rem;
+        }
+  
+      &__title-project{
+        margin-bottom: 5rem;
+        font-size: 3.5rem;
+        font-weight: 100;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+      }
+      &__container {
+        width: 300px;
+        height: 400px;
+        perspective: 1000px;
+        margin: 20px;
+
+        &:hover .flip-card {
+          transform: rotateY(180deg);
+        }
+      }
+  
+      &__front, &__back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+
+      &__front-title{
+        margin: 0;
+        background-color: sandybrown;
+        position: absolute;
+        z-index: 10;
+        bottom:0;
+        left:0;
+        font-weight: 900;
+        width: 100%;
+        font-size: 2rem;
+        color: black;
+        padding: .6rem 0;
+        opacity: .7;
+        text-transform: uppercase;
+      }
+        
+      &__back {
+      background-color: silver;
+      color: black;
+      transform: rotateY(-180deg);
+        }
+          
+        &__front img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          -webkit-filter: sepia(.8);
+          filter: sepia(.8);
+
+        }
+
+        
+
+        &__back p {
+          text-align: center;
+          margin: 1rem;
+          font-size: 1.4rem;
+          line-height: 1.5rem;
+        }
+
+        &__back p span {
+          display: block;
+          font-size: 1rem;
+          font-style: italic;
+          font-weight: bold;
+          margin-top: 1.25rem;
+        }
+    
+  }
+  
+  

@@ -15,8 +15,6 @@
         position: absolute;
     }
  
-
-
     &__background{
         height: 30rem;
         width: 100%;
@@ -44,9 +42,11 @@
         position: absolute;
         top: 80%;
         left: 5%;
+        
 
         @mixin atSmall{
             letter-spacing: 3px;
+            font-size: 2rem;
         }
 
     }

@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer{
+    
+    &__copyright{
+        font-weight: 100;
+        letter-spacing: 2px;
+        font-size: 0.8rem;
+        color: white;
+    }
+    
+    &__follow-icons{
+        padding: 50px;
+
+            i{
+                color: white;
+                margin: .4rem;
+
+                &:hover{
+                    color: grey;
+                    filter: drop-shadow(0 6px 4px black)
+                }
+            }
+
+            
+
+    }
+}

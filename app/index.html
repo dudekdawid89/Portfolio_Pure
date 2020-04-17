@@ -12,177 +12,193 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital@1&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
-
 </head>
 
 <body>
-  <!-- Welcome Screen --> 
+  <!-- ******* Welcome Screen ******* -->
   <div class="newWelcome">
     <h1 class="fadeIn font__logo">The Dudek</h1>
   </div>
-  <!-- End Welcome Screen-->
+  <!-- ******* Welcome Screen End ******* -->
 
-  <!-- Navigation Bar-->
+  <!-- ******* Navigation Bar ******* -->
   <header class="site-header">
-    <a href="#" class='site-header__logo font__logo'>The Dudek</a>
+    <div class='site-header__logo font__logo'>The Dudek</div>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a class="about-call" >About me</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Resume</a></li>
-      <li><a href="#contact">Favorite Technology</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><div id="home-call">Home</div></li>
+      <li><div id="about-call">About me</div></li>
+      <li><div id="portfolio-call">Portfolio</div></li>
+      <li><div id="resume-call">Resume</div></li>
+      <li><div id="favorite-tech-call">Favorite Technology</div></li>
+      <li><div id="contact-call">Contact</div></li>
     </ul>
     <div class="site-header__toggle"></div>
   </header>
-  <!--End Navigation Bar-->
+  <!-- ******* Navigation Bar End ******* -->
 
-  <!-- Landing Page-->
+  <!-- ******* Landing Page ******* -->
   <section class="landing-page">
     <div class="landing-page__background"></div>
     <div class="landing-page__text-content">
         <h1 class="landing-page__title font__logo">I'm Dawid Dudek</h1>
         <h2 class="landing-page__title-2 font__title">Welcome to my portfolio website</h2>
-      <p class="landing-page__button-container"><a href="" class="button ">Get Started</a></p>
+        <p class="landing-page__button-container">
+        <a href="" class="button ">Get Started</a>
+        </p>
     </div>
   </section>
-  <!-- End Landing Page-->
+  <!-- ******* Landing Page End ******* -->
 
-  <!--About-->
-  <section class="template-style template-style--about" >
+  <!-- ******* About Me ******* -->
+  <section class="template-style template-style--about">
       <div class="about__content">
         <div class="section-title-style font__logo">About me</div>
         <div class="about__text">
-          <p class="reveal">As a Material Science Engineer with the passion for research and innovation for evolving technologie has brought me to pursue a career in web development. 
-            Coding increases my curiosity while challenging me.  Although I’ve been in the software industry a little over a year, I view it as a stepping stone for a longterm career.
-            I firmly believe that being strategic, productive, dedicated ,and team-oriented is the key to a programmer’s success...</p>
+          <p class="reveal">As a Material Science Engineer with the passion for research and innovation for evolving technologie has brought me to pursue a career in web development. Coding increases my curiosity while challenging me. Although I’ve been in the software industry a little over a year, I view it as a stepping stone for a longterm career. I firmly believe that being strategic, productive, dedicated ,and team-oriented is the key to a programmer’s success...
+          </p>
         </div>
       </div>
   </section>
-  <!--End About-->
+  <!-- ******* About Me End ******* -->
 
-  <!--Porftolio-->
-  <section class="portfolio template-style template-style--portfolio" id="portfolio">
-    <div class="portfolio__content">
+  <!-- ******* Portfolio ******* -->
+  <section class="portfolio template-style template-style--portfolio">
+    <div>
       <div class="portfolio__text">
         <div class="section-title-style font__logo">Portfolio</div>
         <p>Please take a moment to see my work</p>
       </div>
-      <div class="main">
-        <div class="flip-card-container reveal">
+      <div class="portfolio__flex-container">
+        <div class="flip-card__container reveal">
           <div class="flip-card">
-            <div class="flip-card-front">
-              <img src="assets/images/bg4.jpg" alt="Albert Einstein">
+            <div class="flip-card__front">
+              <img src="assets/images/bg4.jpg">
+              <p class="flip-card__front-title">Burger App</p>
             </div>
-            <div class="flip-card-back">
-              <p>
-                "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
-                <span>- Albert Einstein -</span>
-              </p>
+            <div class="flip-card__back">
+              <div class="flip-card__title-project">Project Burger</div>
+              <a href="" class="button button--black">Project Link</a>
+              <a href="" class="button button--black">Github Link</a>
             </div>
           </div>
         </div>
-        <div class="flip-card-container reveal">
+        <div class="flip-card__container reveal">
           <div class="flip-card">
-            <div class="flip-card-front">
-              <img src="assets/images/bg6.jpg" alt="Albert Einstein">
+            <div class="flip-card__front">
+              <img src="assets/images/bg6.jpg">
+              <p class="flip-card__front-title">Burger App</p>
             </div>
-            <div class="flip-card-back">
-              <p>
-                "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
-                <span>- Albert Einstein -</span>
-              </p>
+            <div class="flip-card__back">
+              <div class="flip-card__title-project">Project Burger</div>
+              <a href="" class="button button--black">Project Link</a>
+              <a href="" class="button button--black">Github Link</a>
             </div>
           </div>
         </div>
-        <div class="flip-card-container reveal">
+        <div class="flip-card__container reveal">
           <div class="flip-card">
-            <div class="flip-card-front">
-              <img src="assets/images/bg8.jpeg" alt="Albert Einstein">
+            <div class="flip-card__front">
+              <img src="assets/images/bg8.jpeg">
+              <p class="flip-card__front-title">Burger App</p>
             </div>
-            <div class="flip-card-back">
-              <p>
-                "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
-                <span>- Albert Einstein -</span>
-              </p>
+            <div class="flip-card__back">
+              <div class="flip-card__title-project">Project Burger</div>
+              <a href="" class="button button--black">Project Link</a>
+              <a href="" class="button button--black">Github Link</a>
             </div>
           </div>
         </div>
-        <div class="flip-card-container reveal">
+        <div class="flip-card__container reveal">
           <div class="flip-card">
-            <div class="flip-card-front">
-              <img src="assets/images/b10.jpg" alt="Albert Einstein">
+            <div class="flip-card__front">
+              <img src="assets/images/b10.jpg">
+              <p class="flip-card__front-title">Burger App</p>
             </div>
-            <div class="flip-card-back">
-              <p>
-                "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
-                <span>- Albert Einstein -</span>
-              </p>
+            <div class="flip-card__back">
+              <div class="flip-card__title-project">Project Burger</div>
+              <a href="" class="button button--black">Project Link</a>
+              <a href="" class="button button--black">Github Link</a>
             </div>
           </div>
         </div>
-        <div class="flip-card-container reveal">
+        <div class="flip-card__container reveal">
           <div class="flip-card">
-            <div class="flip-card-front">
-              <img src="assets/images/b11.jpg" alt="Albert Einstein">
+            <div class="flip-card__front">
+              <img src="assets/images/b11.jpg">
+              <p class="flip-card__front-title">Burger App</p>
             </div>
-            <div class="flip-card-back">
-              <p>
-                "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
-                <span>- Albert Einstein -</span>
-              </p>
+            <div class="flip-card__back">
+              <div class="flip-card__title-project">Project Burger</div>
+              <a href="" class="button button--black">Project Link</a>
+              <a href="" class="button button--black">Github Link</a>
             </div>
           </div>
         </div>
-        <div class="flip-card-container reveal">
+        <div class="flip-card__container reveal">
           <div class="flip-card">
-            <div class="flip-card-front">
-              <img src="assets/images/b11.jpg" alt="Albert Einstein">
+            <div class="flip-card__front">
+              <img src="assets/images/b11.jpg">
+              <p class="flip-card__front-title">Burger App</p>
             </div>
-            <div class="flip-card-back">
-              <p>
-                "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe."
-                <span>- Albert Einstein -</span>
-              </p>
+            <div class="flip-card__back">
+              <div class="flip-card__title-project">Project Burger</div>
+              <a href="" class="button button--black">Project Link</a>
+              <a href="" class="button button--black">Github Link</a>
             </div>
           </div>
         </div>
-    </div>
+      </div>
     </div>
   </section>
-  <!--End Portfolio-->
+  <!-- ******* Portfolio End ******* -->
 
-  <!--Resume-->
+  <!-- ******* Resume ******* -->
   <section class="template-style">          
     <div class="resume__content resume__background reveal">
-      <a class="resume__button button__black" href="#">Click to see my resume</a>
+      <a class="button resume__button" href="#">Look at my resume</a>
   </section>
-  <!--End Resume-->
+  <!-- ******* Resume End ******* -->
   
-  <!--Favorite Technology-->
-    <section class="template-style template-style--favorite-technology">
-      <div class="about__content">
-        <div class="section-title-style font__logo">Favorite Technology</div>
+  <!-- ******* Favorite Technology ******* -->
+  <section class="template-style template-style--favorite-technology navigate">
+    <div class="about__content">
+        <div class="section-title-style section-title-style--small font__logo">Favorite Technology</div>
         <div class="images">
           <div class="svg">
-          <img class="reveal" src="assets/icons/react-logo.png" alt="React-logo">
-          <img class="reveal" src="assets/icons/node.js-logo.png" alt="Node.js-logo">
-          <img class="reveal" src="assets/icons/JS-logo.png" alt="JS-logo">
-          <img class="reveal" src="assets/icons/mongodb-logo.png" alt="MongoDB-logo">
-          <img class="reveal" src="assets/icons/css-logo.png" alt="Css-logo">
-          <img class="reveal" src="assets/icons/bootstrap-logo.png" alt="Bootstrap-logo">
-          <img class="reveal" src="assets/icons/html-logo.png" alt="Html-logo">
-          <img class="reveal" src="assets/icons/npm-logo.png" alt="npm-logo">
-        </div>
+            <img class="reveal" src="assets/icons/react-logo.png" alt="React-logo">
+            <img class="reveal" src="assets/icons/node.js-logo.png" alt="Node.js-logo">
+            <img class="reveal" src="assets/icons/JS-logo.png" alt="JS-logo">
+            <img class="reveal" src="assets/icons/mongodb-logo.png" alt="MongoDB-logo">
+            <img class="reveal" src="assets/icons/css-logo.png" alt="Css-logo">
+            <img class="reveal" src="assets/icons/bootstrap-logo.png" alt="Bootstrap-logo">
+            <img class="reveal" src="assets/icons/html-logo.png" alt="Html-logo">
+            <img class="reveal" src="assets/icons/npm-logo.png" alt="npm-logo">
+          </div>
       </div>
-      <div class="contact__follow-icons">
-          <a href="http://linkedin.com/in/dawiddudek" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-          <a href="https://github.com/dudekdawid89" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-      </div>
-      <p class="contact__copyright">Design & Developed By<span class="link link--copyright font__logo"> The Dudek</span></p>
     </div>
   </section>
-  <!--End Favorite Technology-->
+  <!-- ******* Favorite Technology End ******* -->
+
+  <!-- ******* Contact ******* -->
+  <section class="template-style">
+    <div class="about__content">
+      <div class="section-title-style font__logo">Say Hello!</div>
+      <p class="contact__text">Would you like to contact with me?</p>
+      <a class="contact__button button" href = "mailto:dudekdawid89@gmail.com">Drop me a line</a>
+      <a class="contact__button button" href="tel:773-829-7963">Call Me</a>
+    </div>
+  </section>
+  <!-- ******* Contact End ******* -->
+
+  <!-- ******* Footer ******* -->
+  <footer>
+    <div class="footer__follow-icons">
+      <a href="http://linkedin.com/in/dawiddudek" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
+      <a href="https://github.com/dudekdawid89" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+    </div>
+    <p class="footer__copyright">Design & Developed By<span class="link link--copyright font__logo"> The Dudek</span></p>
+  </footer>
+  <!-- ******* Footer End ******* -->
+
 </body>
 </html>

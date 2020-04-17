@@ -11,14 +11,13 @@
     }
 
     &__background{
-        position: relative;
-        min-width: 100%;
-        min-height: 100vh;
+        max-width: 100%;
+        height: 100vh;
         background: url(assets/images/b11.jpg);
-        background-attachment: fixed;
-
+        background-attachment: fixed, scroll;
         background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
     }
     
     &__text-content{
@@ -30,7 +29,6 @@
         width: 100%;
         text-align: center;
         z-index:2;
-
     }
 
     &__title{

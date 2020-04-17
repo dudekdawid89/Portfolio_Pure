@@ -11,9 +11,6 @@ class ButtonAnimation{
                 this.buttonToAnimate.classList.add('button-animation--is-visible')
             }, 2500);
         })
-        
-        
-        
     }
 
     hideInitially(){

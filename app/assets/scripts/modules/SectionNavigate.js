@@ -4,6 +4,12 @@ class SectionNavigate{
     }
 
     events(){
+        document.querySelector('#about-call').addEventListener('click', ()=>{
+
+            document.querySelector('.navigate').scrollIntoView({
+                block: "end"
+            });
+        })
     }
 }
 
