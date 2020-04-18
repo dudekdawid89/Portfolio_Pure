@@ -10,11 +10,16 @@
         }
   
       &__title-project{
-        margin-bottom: 5rem;
-        font-size: 3.5rem;
-        font-weight: 100;
-        letter-spacing: 2px;
+        margin-bottom: 4rem;
+        font-size: 2.5rem;
+        font-weight: 200;
+        letter-spacing: 3px;
         text-transform: uppercase;
+        padding: .5rem;
+
+          span{
+            font-weight: 300;
+          }
 
       }
       &__container {
@@ -46,12 +51,12 @@
         z-index: 10;
         bottom:0;
         left:0;
-        font-weight: 900;
+        font-weight: 800;
         width: 100%;
-        font-size: 2rem;
+        font-size: 1.5rem;
         color: black;
         padding: .6rem 0;
-        opacity: .7;
+        opacity: .9;
         text-transform: uppercase;
       }
         
@@ -69,8 +74,6 @@
           filter: sepia(.8);
 
         }
-
-        
 
         &__back p {
           text-align: center;
