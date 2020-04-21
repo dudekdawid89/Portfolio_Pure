@@ -101,6 +101,7 @@
         border-radius: 100%;
     }
 
+    
     &__toggle:after{
         content: '';
         position: absolute;
