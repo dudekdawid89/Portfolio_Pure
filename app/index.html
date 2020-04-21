@@ -23,7 +23,7 @@
 
   <!-- ******* Navigation Bar ******* -->
   <header class="site-header">
-    <div class='site-header__logo font__logo'>The Dudek</div>
+    <div class='site-header__logo font__logo' id="home-call">The Dudek</div>
     <ul>
       <li><div id="home-call">Home</div></li>
       <li><div id="about-call">About me</div></li>
@@ -37,20 +37,20 @@
   <!-- ******* Navigation Bar End ******* -->
 
   <!-- ******* Landing Page ******* -->
-  <section class="landing-page">
+  <section class="landing-page navigate-home">
     <div class="landing-page__background"></div>
     <div class="landing-page__text-content">
         <h1 class="landing-page__title font__logo">I'm Dawid Dudek</h1>
         <h2 class="landing-page__title-2 font__title">Welcome to my portfolio website</h2>
         <p class="landing-page__button-container">
-        <a href="" class="button ">Get Started</a>
+        <a class="button" id="about-call">Get Started</a>
         </p>
     </div>
   </section>
   <!-- ******* Landing Page End ******* -->
 
   <!-- ******* About Me ******* -->
-  <section class="template-style template-style--about">
+  <section class="template-style template-style--last navigate-about">
       <div class="about__content">
         <div class="section-title-style font__logo">About me</div>
         <div class="about__text">
@@ -62,7 +62,7 @@
   <!-- ******* About Me End ******* -->
 
   <!-- ******* Portfolio ******* -->
-  <section class="portfolio template-style template-style--portfolio">
+  <section class="portfolio template-style template-style--last navigate-portfolio">
     <div>
       <div class="portfolio__text">
         <div class="section-title-style font__logo">Portfolio</div>
@@ -152,14 +152,14 @@
   <!-- ******* Portfolio End ******* -->
 
   <!-- ******* Resume ******* -->
-  <section class="template-style">          
+  <section class="template-style template-style--last navigate-resume">          
     <div class="resume__content resume__background reveal">
       <a class="button resume__button" href="#">See my resume</a>
   </section>
   <!-- ******* Resume End ******* -->
   
   <!-- ******* Favorite Technology ******* -->
-  <section class="template-style template-style--favorite-technology navigate">
+  <section class="template-style template-style--favorite-technology navigate-technology">
     <div class="about__content">
         <div class="section-title-style section-title-style--small font__logo">Favorite Technology</div>
         <div class="images">
@@ -179,8 +179,8 @@
   <!-- ******* Favorite Technology End ******* -->
 
   <!-- ******* Contact ******* -->
-  <section class="template-style">
-    <div class="about__content">
+  <section class="template-style template-style--last navigate-contact">
+    <div class="about__content reveal">
       <div class="section-title-style font__logo">Say Hello!</div>
       <p class="contact__text">Would you like to contact me?</p>
       <a class="contact__button button" href = "mailto:dudekdawid89@gmail.com">Drop me a line</a>

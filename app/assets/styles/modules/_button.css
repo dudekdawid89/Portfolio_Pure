@@ -7,6 +7,7 @@
     font-size: 1rem;
     font-weight: 300;
     font-family: 'Gotu', sans-serif;
+    cursor: pointer;
 
     &:hover{
         color: black;
@@ -31,8 +32,6 @@
 
     }
 }
-
-
 
 .button-animation{
     opacity: 0;

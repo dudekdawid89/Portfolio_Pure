@@ -18,7 +18,11 @@
            font-weight: 100;
            letter-spacing: 1px;
            line-height: 2.3rem;
-           font-style: italic ;        
+           font-style: italic;   
+           
+           @mixin atSmall{
+            padding: 0 2rem;
+        }
        }
    }
 }

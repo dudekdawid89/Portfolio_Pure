@@ -8,10 +8,8 @@
     color:white;
     text-align: center;
 
-
     &--last{
-        min-height: 80vh;
-        padding-bottom: 0;    
+        min-height: auto;  
     }
 
     &--portfolio{
@@ -26,7 +24,6 @@
         @mixin atSmall{
             padding: 80px 40px 0 40px;
         }
-
     }
 
     &--about{
@@ -37,8 +34,6 @@
         }
     }
 }
-
-
 
 .images{
     img{
