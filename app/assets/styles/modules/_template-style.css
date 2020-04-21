@@ -1,5 +1,5 @@
 .template-style{
-    min-height: 100vh;
+    min-height: auto;
     width: 100%;
     padding: 80px 10px;
     display: flex;
@@ -7,50 +7,5 @@
     align-items: center;
     color:white;
     text-align: center;
-
-    &--last{
-        min-height: auto;  
-    }
-
-    &--portfolio{
-        @mixin atSmall{
-            padding: 100px
-        }
-    }
-
-    &--favorite-technology{
-        padding: 80px 10px 0 10px;
-
-        @mixin atSmall{
-            padding: 80px 40px 0 40px;
-        }
-    }
-
-    &--about{
-        padding: 0 10px;
-        
-        @mixin atSmall{
-            padding: 10px 90px
-        }
-    }
 }
 
-.images{
-    img{
-  
-      height: 5.5rem;
-      width: auto;
-      margin: 1rem;
-      filter: drop-shadow(0 6px 4px black) grayscale(40%); 
-  
-      @mixin atSmall{
-        height: 7rem;
-      }
-  
-    }
-  }
-
-  body{
-
-        background-image: linear-gradient(black, #210202);
-    }
